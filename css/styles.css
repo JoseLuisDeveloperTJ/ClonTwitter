@@ -1,0 +1,149 @@
+body {
+  background: rgb(21, 32, 43);
+  background: linear-gradient(90deg, rgb(21, 32, 43) 0%, rgb(25, 69, 71) 100%);
+  background-attachment: fixed;
+}
+
+.publicaciones {
+  padding: 2rem;
+  background-color: rgba(42, 163, 239, 0.0392156863);
+  border-radius: 30px;
+}
+
+.padre-lateral {
+  margin-bottom: 45rem;
+}
+
+.categorias {
+  background-color: rgba(42, 163, 239, 0.0392156863);
+  border-radius: 30px;
+  height: 100%;
+}
+
+.titulo-trends {
+  padding: 2rem 2rem 1rem 2rem;
+}
+.titulo-trends h6 {
+  color: #4FD8E0;
+}
+.titulo-trends i {
+  color: #4FD8E0;
+}
+
+.stats-box {
+  padding: 0rem 2rem 0rem 2rem;
+}
+
+.show-more-box {
+  padding: 0rem 2rem 2rem 2rem;
+}
+.show-more-box h6 {
+  color: #4FD8E0;
+}
+
+.logo p {
+  color: white;
+  font-weight: 700;
+}
+
+.input-group-2 {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.input {
+  padding: 0.5rem 0.5rem 0.5rem 2rem;
+  border-radius: 20px;
+  width: 98%;
+  background-color: rgba(42, 163, 239, 0.0392156863);
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.icon {
+  color: white;
+  position: absolute;
+  padding: 9px;
+  font-weight: 700;
+}
+
+::placeholder {
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.596);
+}
+
+.text-cont h1 {
+  font-size: 0.8rem;
+  color: white;
+  margin: 0;
+}
+.text-cont p {
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.486);
+}
+
+.gear {
+  color: white;
+  font-size: 0.9rem;
+}
+.gear:hover {
+  cursor: pointer;
+}
+
+.effect-aside .icon-pro, .effect-aside .caja-text-1 {
+  color: #4FD8E0;
+}
+.effect-aside .icon-pro:hover, .effect-aside .caja-text-1:hover {
+  cursor: pointer;
+}
+
+.effect-aside-2 .icon-pro, .effect-aside-2 .caja-text-1 {
+  color: white;
+}
+.effect-aside-2 .icon-pro:hover, .effect-aside-2 .caja-text-1:hover {
+  cursor: pointer;
+}
+
+.icon-pro {
+  color: white;
+}
+
+.caja-text-1 {
+  color: white;
+  font-weight: 700;
+}
+
+.effect-hist {
+  color: white;
+}
+.effect-hist:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.6s;
+}
+
+.btn-pro {
+  margin-left: 5rem;
+  background-color: #4FD8E0;
+  color: white;
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  width: 60%;
+  border: none;
+}
+.btn-pro:hover {
+  transition: 0.5s;
+  background-color: white;
+  color: black;
+}
+
+.color-user {
+  color: white;
+  font-weight: 650;
+}
+
+/*# sourceMappingURL=styles.css.map */
